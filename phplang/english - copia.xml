@@ -1,0 +1,3091 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2016/10/25" version="13.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!-- 
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="actiondeleted" value="Eliminar" />
+    <phrase id="actioninserted" value="Insertar" />
+    <phrase id="actioninsertedgridadd" value="Insertar (Agregar-Grilla)" />
+    <phrase id="actionupdated" value="Editar" />
+    <phrase id="actionupdatedgridedit" value="Editar (Editar-Grilla)" />
+    <phrase id="actionupdatedmultiupdate" value="Editar (Multiple-Edición)" />
+    <phrase id="activateaccount" value="Su cuenta se activará" />
+    <phrase id="activatefailed" value="Activacion Fallida" />
+    <phrase id="add" value="Agregar" />
+    <phrase id="addblankrow" value="Añadir fila en blanco" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addbtn" value="Agregar" />
+    <phrase id="addlink" value="Agregar" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addmasterdetaillink" value="Agregar Maestro/Detalle" class="icon-md-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Agregado correctamente" />
+    <phrase id="advancedsearch" value="Busqueda Avanzada" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Busqueda Avanzada" class="icon-advanced-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="allrecords" value="Todos" />
+    <phrase id="allword" value="All words" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <phrase id="anyword" value="Any word" />
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="user already logged in" />
+    <phrase id="audittrailpasswordexpired" value="password expired" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="Back to List" />
+    <phrase id="backtologin" value="Back to login page" />
+    <phrase id="backtomasterrecordpage" value="Back to master table" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="buttonactions" value="Acciones" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Agregar/Editar" class="icon-addedit ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Maestro/Detalle" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Exportar" class="icon-export ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonlistoptions" value="Options" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Search" class="icon-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancelar" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancelar" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="changepwd" value="Cambiar contraseña" />
+    <phrase id="changepwdpage" value="Cambiar contraseña" />
+    <phrase id="changepwdbtn" value="Cambiar" />
+    <phrase id="choosefilebtn" value="Seleccione..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Seleccione Archivo" />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Seleccione Archivo" />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Haga Click en reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="closebtn" value="Cerrar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirmar" />
+    <phrase id="confirmbtn" value="Confirmar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Quiere Cancelar?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirmar Password" />
+    <phrase id="conflictcancellink" value="Cancelar" />
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="imagen {current} de {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" y "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="previos" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="Siguiente" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="Cerrar" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="Este contenido no se pudo cargar." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="Esta imagen no se pudo cargar." client="1" />
+    <!-- v11 -->
+    <phrase id="copy" value="Copiar" />
+    <phrase id="copylink" value="Copiar" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="count" value="Contar" />
+    <phrase id="countselected" value="%s seleccionado" client="1" />
+    <!-- v12 -->
+    <phrase id="currentpassword" value="Contraseña Actual: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completado" />
+    <phrase id="customactioncancelled" value="'%s' cancelado" />
+    <phrase id="customactionfailed" value="'%s' ha fallado" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' no permitido" />
+    <!-- v12 -->
+    <phrase id="customview" value="Vista Perzonalizada" />
+    <phrase id="delete" value="Borrar" />
+    <phrase id="deletebtn" value="Borrar" />
+    <phrase id="deletecancelled" value="Eliminacion Cancelada" />
+    <phrase id="deleteconfirmmsg" value="Estas seguro que quieres borrarlo?" client="1" />
+    <phrase id="deletefilter" value="Eliminar filtro" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Eliminar filtro %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Eliminar" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deleteselectedlink" value="Eliminar registros selecionados" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deletesuccess" value="Eliminacion Correcta" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;" />
+    <!-- v11 -->
+    <phrase id="masterdetailcopylink" value="Copiar Maestro/Detalle" class="icon-md-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Editar Maestro/Detalle" class="icon-md-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Lista de detalles" class="icon-table ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Ver Maestro/Detalle" class="icon-md-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="dupindex" value="valor duplicado '%v' para el índice único '%f'" />
+    <phrase id="dupkey" value="Valor Duplicado: '%f'" />
+    <phrase id="edit" value="Editar" />
+    <phrase id="editlink" value="Edicion" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Introduce el nombre de filtro" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Por favor, introduzca una nueva contraseña" client="1" />
+    <phrase id="enteroldpassword" value="Por favor, introduzca la contraseña antigua" client="1" />
+    <phrase id="enterpassword" value="Por favor, ingrese contraseña" client="1" />
+    <phrase id="enterpwd" value="Por favor, ingrese contraseña" client="1" />
+    <phrase id="enterrequiredfield" value="Por favor ingrese el campo Requerido - %s" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Por favor ingrese criterio de busqueda" />
+    <phrase id="enterusername" value="Por favor ingrese Nombre de Usuario" client="1" />
+    <phrase id="entervalidatecode" value="Introduzca el código de seguridad" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidemail" value="Please enter valid Email Address" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes" />
+    <phrase id="exceedmaxemailexport" value="Superado el máximo cuenta de correo electrónico de exportación. Por favor, inténtelo de nuevo más tarde" />
+    <phrase id="exporttocsv" value="Exportar a CSV" class="icon-csv ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Exportar a Excel" class="icon-excel ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export to HTML" class="icon-html ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Exportar a PDF" class="icon-pdf ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Exportar a Word" class="icon-word ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Exportar a XML" class="icon-xml ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtosendmail" value="Fallo el envio del email. " />
+    <phrase id="fieldname" value="Nombre del campo" />
+    <phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;" />
+    <phrase id="filenotfound" value="File not found" />
+    <!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+    <phrase id="filter" value="Filter" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Nombre del filtro" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filtros" class="icon-filter ewIcon" />
+    <!-- v12 -->
+    <phrase id="overwritebtn" value="Sobreescribir" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Sobreescribir" />
+    <phrase id="forgotpwd" value="Forgot Password" />
+    <phrase id="goback" value="volver" />
+    <phrase id="gridaddcancelled" value="Cancelar Agregar en grilla" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Agregar en Grilla" class="icon-grid-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancelar" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="grideditcancelled" value="Grilla de edicion cancelada" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Editar en Grilla" class="icon-grid-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Confirmar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridsavelink" value="Guardar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="highlight" value="Highlight" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Highlight" class="icon-highlight ewIcon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Pagina de Inicio" class="glyphicon glyphicon-home ewIcon" />
+    <!-- v11 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <phrase id="incorrectdateymd" value="Incorrect date (yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Incorrect date (mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Incorrect date (dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date (yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date (mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date (dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectssn" value="Incorrect social security number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh%smm%sss)" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="inlineaddlink" value="Agregar en Linea" class="icon-inline-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Copiar en Linea" class="icon-inline-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Editar en linea" class="icon-inline-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insercion Calcelada" />
+    <phrase id="insertfailed" value="Fallo la Insercion" client="1" />
+    <phrase id="insertlink" value="Insertar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertsuccess" value="Insersion Correcta" />
+    <phrase id="invalidemail" value="Email invalido" />
+    <phrase id="invalidfield" value="Campo Invalido" />
+    <phrase id="invalidkeyvalue" value="valor de clave no válida" />
+    <phrase id="invalidrecord" value="Invalid Record! Key is null" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Parametro inavlido" />
+    <phrase id="invalidpassword" value="Contraseña incorrecta" />
+    <phrase id="invalidnewpassword" value="Nueva contraseña incorrecta" />
+    <phrase id="invaliduidpwd" value="Usuario o contraseña incorrecto" />
+    <phrase id="keep" value="Guardar" />
+    <phrase id="language" value="Language" />
+    <phrase id="listactionbutton" value="Acciones" class="icon-user ewIcon" />
+    <!-- v12 -->
+    <phrase id="loading" value="Cargando..." client="1" />
+    <phrase id="login" value="Iniciar Sesion" />
+    <phrase id="logincancelled" value="Inicio de sesión cancelado" />
+    <phrase id="loginoptions" value="Opciones" />
+    <!-- v11 -->
+    <phrase id="loginpage" value="iniciar sesión" />
+    <phrase id="logout" value="Cerrar Sesion" />
+    <phrase id="lookuplink" value="Buscar - %s" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v2017 -->
+    <phrase id="masterrecord" value="Master registros: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="multiplemasterdetails" value="Maestro/Detalle" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="new" value="New" />
+    <phrase id="newpassword" value="Nuevo Password" />
+    <phrase id="newvalue" value="Nuevo valor" />
+    <!-- v12 -->
+    <phrase id="next" value="Siguiente" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No hay registros que se añadirán" client="1" />
+    <phrase id="nofieldselected" value="No hay campo seleccionado para la actualización" client="1" />
+    <phrase id="nopermission" value="Usted no tiene permiso de acceso %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="Usted no tiene permiso para añadir el registro." />
+    <phrase id="nodeletepermission" value="Usted no tiene permiso para eliminar el registro." />
+    <phrase id="noeditpermission" value="Usted no tiene permiso para editar el registro." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No se encontraron resultados" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No hay resultados para tecla de grabación = " />
+    <phrase id="norecordselected" value="No hay registros seleccionados" client="1" />
+    <phrase id="notablegenerated" value="No tables generated" />
+    <phrase id="nouserlevel" value="No hay ajustes de nivel de usuario." />
+    <phrase id="of" value="de" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="antiguo" />
+    <phrase id="oldpassword" value="antiguo Password" />
+    <phrase id="optionalreadyexist" value="Ya existe esa opcion" />
+    <phrase id="page" value="Pagina" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="Primero" />
+    <phrase id="pagerlast" value="Ultimo" />
+    <phrase id="pagernext" value="Siguiente" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Contraseña" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Contraseña Requerida" />
+    <phrase id="passwordchanged" value="Cambiar Contraseña" />
+    <phrase id="passwordexpired" value="Password Expired. Please change password." />
+    <phrase id="passwordstrength" value="Strength: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Su contraseña es muy simple, Agregue MAY, simbolo, letras MIN y Numeros" client="1" />
+    <!-- v12 -->
+    <phrase id="generatepassword" value="Generar Contraseña" class="glyphicon glyphicon-flash ewIcon" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissions" class="icon-user ewIcon" />
+    <!-- v11 -->
+    <phrase id="permissionaddcopy" value="Agregar/Copiar" />
+    <phrase id="permissiondelete" value="Eliminar" />
+    <phrase id="permissionedit" value="Editar" />
+    <phrase id="permissionlistsearchview" value="Lista/Busqueda/Vista" />
+    <phrase id="permissionlist" value="Lista" />
+    <phrase id="permissionsearch" value="Busqueda" />
+    <phrase id="permissionview" value="Ver" />
+    <phrase id="pickdate" value="Elija una fecha" />
+    <phrase id="pleaseselect" value="Seleccione" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Por Favor Espera..." client="1" />
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ewIcon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Vista de Impresion" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v12 -->
+    <phrase id="pwdemailsent" value="Password sent to your email" />
+    <phrase id="resetpwdemailsent" value="The reset password email has been sent to you" />
+    <phrase id="quicksearch" value="Búsqueda rápida" />
+    <phrase id="quicksearchbtn" value="Buscar" />
+    <phrase id="quicksearchauto" value="Auto" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="Todas las palabras claves" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="Todas" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Cualquier palabra" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Alguna" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Coincidencia exacta" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exacto" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Registros" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="Registro(s) Eliminado" />
+    <phrase id="recordinserted" value="Registro(s) insertado" />
+    <phrase id="recordupdated" value="Registro(s) actualizado" />
+    <phrase id="recordsperpage" value="Tamaño de pagina" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Registrarse" />
+    <phrase id="registerbtn" value="Registrarse" />
+    <phrase id="registersuccess" value="Registracion Exitosa " />
+    <phrase id="registersuccessactivate" value="Registro éxitoso. Un correo electrónico ha sido enviado a su dirección de correo electrónico, por favor haga clic en el enlace del correo electrónico para activar su cuenta." />
+    <phrase id="registerpage" value="Registration" />
+    <phrase id="relatedrecordrequired" value="No se puede añadir o actualizar un registro debido a que el valor de clave externa no existe en la tabla maestra '%t'" />
+    <phrase id="relatedrecordexists" value="No se puede eliminar un registro, ya que existen registros relacionados en la tabla '%t'" />
+    <phrase id="reloadbtn" value="Reload" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Recargar" />
+    <phrase id="rememberme" value="Renombrar me" />
+    <phrase id="remove" value="Remover" />
+    <phrase id="replace" value="Remplazar" />
+    <phrase id="report" value="Reporte" />
+    <phrase id="requestpwdpage" value="Password Requerido" />
+    <phrase id="reset" value="Restablecer" />
+    <phrase id="resendregisteremailbtn" value="Resend registration email" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserbtn" value="Reset concurrent user session" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Reset login retry count" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Restablecer" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Restablecer" />
+    <phrase id="rptavg" value="Promedio" />
+    <phrase id="rptdtlrec" value="Detalle de registros" />
+    <phrase id="rptgrandtotal" value="Gran Total" />
+    <phrase id="rptmax" value="Maximo" />
+    <phrase id="rptmin" value="Minimo" />
+    <phrase id="rptsum" value="Sum" />
+    <phrase id="rptsumhead" value="Summary for" />
+    <phrase id="savebtn" value="Guardar" />
+    <!-- v11 -->
+    <phrase id="savecurrentfilter" value="Guardar filtro actual" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Guardar mi nombre de Usuario" />
+    <phrase id="search" value="buscar" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Buscar" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="searchpanel" value="Panel de Busqueda" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Seleccionar" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Send" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="sendpwd" value="Send" />
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Set password expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Show all" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Ver todos" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="table" value="TABLE" />
+    <phrase id="tbltypetable" value="Table: " />
+    <phrase id="tbltypeview" value="Ver: " />
+    <phrase id="tbltypecustomview" value=": " />
+    <phrase id="tbltypereport" value="Report: " />
+    <phrase id="to" value="to" />
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="update" value="Actualizar" />
+    <phrase id="updatebtn" value="Actualizar" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="actualización cancelada" />
+    <phrase id="updatefailed" value="Actualizacion Fallida" />
+    <phrase id="updatelink" value="Actualizar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="updateselectall" value="Seleccionar Todos" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Actualizar registros seleccionados" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Actualizacion Correcta" />
+    <phrase id="uploading" value="Subiendo..." client="1" />
+    <phrase id="uploadstart" value="Comenzar" client="1" />
+    <phrase id="uploadcancel" value="Cancelar" client="1" />
+    <phrase id="uploaddelete" value="Eliminar" client="1" />
+    <phrase id="uploadoverwrite" value="Sobrescribir el achivo antiguo?" client="1" />
+    <phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini" />
+    <phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" />
+    <phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded" />
+    <phrase id="uploaderrmsg4" value="No file was uploaded" />
+    <phrase id="uploaderrmsg6" value="Missing a temporary folder" />
+    <phrase id="uploaderrmsg7" value="Failed to write file to disk" />
+    <phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload" />
+    <phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini" />
+    <phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="File is too small" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" />
+    <phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" />
+    <phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" />
+    <phrase id="uploaderrmsgminheight" value="Image requires a minimum height" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="El Usuario ya existe" />
+    <phrase id="userlevel" value="User Level: " />
+    <phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="User Level Permissions" />
+    <phrase id="userlevelidinteger" value="User Level ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="el usuarios '%u' ya esta logueado" />
+    <phrase id="username" value="Nombre de Usuario" />
+    <phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click to view image" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="ver" class="icon-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Agregar" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagecopylink" value="Copiar" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Eliminar" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Editar" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="tableorview" value="Tables" />
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="does not contain" />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" />
+    <!-- v2017 -->
+  </global>
+  <project>
+    <phrase id="bodytitle" value="Sistema de Gestion Conectar Igualdad Misiones" />
+    <phrase id="footertext" value="Desarrollado por Lautaro Cabral" />
+    <menu id="1260">
+      <phrase id="menutext" value="Chat" />
+    </menu>
+    <menu id="1027">
+      <phrase id="menutext" value="Historia de la Atención" />
+    </menu>
+    <menu id="821">
+      <phrase id="menutext" value="userlevelpermissions" />
+    </menu>
+    <menu id="822">
+      <phrase id="menutext" value="userlevels" />
+    </menu>
+    <menu id="1145">
+      <phrase id="menutext" value="Datos extras de la escuela" />
+    </menu>
+    <menu id="725">
+      <phrase id="menutext" value="estado devolucion prestamo" />
+    </menu>
+    <menu id="575">
+      <phrase id="menutext" value="audittrail" />
+    </menu>
+    <menu id="328">
+      <phrase id="menutext" value="Consultas" />
+    </menu>
+    <menu id="576">
+      <phrase id="menutext" value="observacion tutor" />
+    </menu>
+    <menu id="351">
+      <phrase id="menutext" value="Informacion de mi  Establecimiento" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="Administracion" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="Establecimiento" />
+    </menu>
+    <menu id="418">
+      <phrase id="menutext" value="Cargo de autoridades Escolares" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Cursos" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Divisiones" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="Turnos" />
+    </menu>
+    <menu id="35">
+      <phrase id="menutext" value="Niveles educativos" />
+    </menu>
+    <menu id="30">
+      <phrase id="menutext" value="Modalidades" />
+    </menu>
+    <menu id="29">
+      <phrase id="menutext" value="Materias por año" />
+    </menu>
+    <menu id="59">
+      <phrase id="menutext" value="Personas" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="Estados de las Personas" />
+    </menu>
+    <menu id="40">
+      <phrase id="menutext" value="Ocupaciones Tutores" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Estados civiles" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="Sexo de las Personas" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="Tipo de relacion Alumnos y Tutores" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Cargos de las  Personas" />
+    </menu>
+    <menu id="67">
+      <phrase id="menutext" value="Tramites Varios" />
+    </menu>
+    <menu id="661">
+      <phrase id="menutext" value="Pases" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="Establecimientos Educativos Pases" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="Estados de los pases" />
+    </menu>
+    <menu id="662">
+      <phrase id="menutext" value="Prestamos" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="Estados de prestamos de equipos" />
+    </menu>
+    <menu id="32">
+      <phrase id="menutext" value="Motivos de los  prestamos equipos" />
+    </menu>
+    <menu id="919">
+      <phrase id="menutext" value="Estados lista de Espera" />
+    </menu>
+    <menu id="663">
+      <phrase id="menutext" value="Devoluciones" />
+    </menu>
+    <menu id="580">
+      <phrase id="menutext" value="Motivo devolucion" />
+    </menu>
+    <menu id="102">
+      <phrase id="menutext" value="Estados de equipos devuletos" />
+    </menu>
+    <menu id="664">
+      <phrase id="menutext" value="Reasignacion" />
+    </menu>
+    <menu id="33">
+      <phrase id="menutext" value="Motivos de las reasignaciones equipos" />
+    </menu>
+    <menu id="665">
+      <phrase id="menutext" value="Denuncias" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Estados de denuncias" />
+    </menu>
+    <menu id="816">
+      <phrase id="menutext" value="Paquetes de Provisión" />
+    </menu>
+    <menu id="726">
+      <phrase id="menutext" value="Estado Paquetes" />
+    </menu>
+    <menu id="817">
+      <phrase id="menutext" value="Motivos pedido paquetes" />
+    </menu>
+    <menu id="728">
+      <phrase id="menutext" value="Tipo Extraccion" />
+    </menu>
+    <menu id="60">
+      <phrase id="menutext" value="Equipos" />
+    </menu>
+    <menu id="495">
+      <phrase id="menutext" value="Año entrega" />
+    </menu>
+    <menu id="27">
+      <phrase id="menutext" value="Marcas" />
+    </menu>
+    <menu id="31">
+      <phrase id="menutext" value="Modelos" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="ubicacion del equipo" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Estados el equipo" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="Situacion de los Estados" />
+    </menu>
+    <menu id="62">
+      <phrase id="menutext" value="Ubicacion" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="Paises" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="Provincias" />
+    </menu>
+    <menu id="579">
+      <phrase id="menutext" value="Departamentos" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="Localidades" />
+    </menu>
+    <menu id="66">
+      <phrase id="menutext" value="Atenciones" />
+    </menu>
+    <menu id="496">
+      <phrase id="menutext" value="Tipo Falla" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="Problemas" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="Tipos de  soluciones a problema" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="Estado actuales para la  solucion de problemas" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="Prioridades de atenciones" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="Quien Retira los Equipos para st" />
+    </menu>
+    <menu id="493">
+      <phrase id="menutext" value="Datos Conectar Igualdad" />
+    </menu>
+    <menu id="494">
+      <phrase id="menutext" value="Estado de los equipos del piso" />
+    </menu>
+    <menu id="419">
+      <phrase id="menutext" value="Estados del  Servidor" />
+    </menu>
+    <menu id="420">
+      <phrase id="menutext" value="Marca del Servidor" />
+    </menu>
+    <menu id="421">
+      <phrase id="menutext" value="Modelo del  servidor" />
+    </menu>
+    <menu id="425">
+      <phrase id="menutext" value="Sistema Operativo Servidor" />
+    </menu>
+    <menu id="426">
+      <phrase id="menutext" value="Turnos Rte" />
+    </menu>
+    <menu id="103">
+      <phrase id="menutext" value="Alumnos y Docentes" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="Equipos" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="Tutores" />
+    </menu>
+    <menu id="572">
+      <phrase id="menutext" value="Atención de Equipos" />
+    </menu>
+    <menu id="497">
+      <phrase id="menutext" value="Cargar/Modificar" />
+    </menu>
+    <menu id="1140">
+      <phrase id="menutext" value="Seguimiento de las Atenciones" />
+    </menu>
+    <menu id="727">
+      <phrase id="menutext" value="Paquetes de Provision" />
+    </menu>
+    <menu id="422">
+      <phrase id="menutext" value="Datos del piso Tecnologico" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Autoridades Escolares" />
+    </menu>
+    <menu id="423">
+      <phrase id="menutext" value="Datos de los Referentes Tecnicos Escolares" />
+    </menu>
+    <menu id="424">
+      <phrase id="menutext" value="Datos del Servidor Escolar" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Denuncias" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Devolucion de Equipos" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="Liberacion de Equipos" />
+    </menu>
+    <menu id="28">
+      <phrase id="menutext" value="Materias Adeudadas" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="Pase entre Escuelas" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="Reasignacion de equipo" />
+    </menu>
+    <menu id="176">
+      <phrase id="menutext" value="gghgh" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="estado actual legajo alumno" />
+    </menu>
+    <menu id="36">
+      <phrase id="menutext" value="observacion alumno" />
+    </menu>
+    <menu id="37">
+      <phrase id="menutext" value="observacion equipo" />
+    </menu>
+    <menu id="1017">
+      <phrase id="menutext" value="Prestamo de Equipos" />
+    </menu>
+    <menu id="918">
+      <phrase id="menutext" value="Lista de Espera" />
+    </menu>
+    <menu id="43">
+      <phrase id="menutext" value="Cargar/Modificar" />
+    </menu>
+    <menu id="350">
+      <phrase id="menutext" value="Operaciones Masivas" />
+    </menu>
+    <menu id="917">
+      <phrase id="menutext" value="Atenciones de Equipos" />
+    </menu>
+    <menu id="574">
+      <phrase id="menutext" value="Actualizar Atenciones en/para ST" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Actualizar Detalle de las Atenciones" />
+    </menu>
+    <menu id="724">
+      <phrase id="menutext" value="Informes Varios" />
+    </menu>
+    <menu id="1258">
+      <phrase id="menutext" value="Establecimiento" />
+    </menu>
+    <menu id="1141">
+      <phrase id="menutext" value="Datos Generales" />
+    </menu>
+    <menu id="1143">
+      <phrase id="menutext" value="Directivos" />
+    </menu>
+    <menu id="1142">
+      <phrase id="menutext" value="Referentes Tecnicos" />
+    </menu>
+    <menu id="1146">
+      <phrase id="menutext" value="Servidor Escolar" />
+    </menu>
+    <menu id="1147">
+      <phrase id="menutext" value="Datos Extra" />
+    </menu>
+    <menu id="1030">
+      <phrase id="menutext" value="Estado de los Alumnos por Cursos" />
+    </menu>
+    <menu id="1031">
+      <phrase id="menutext" value="Estado documentacion Alumnos/Docentes" />
+    </menu>
+    <menu id="1032">
+      <phrase id="menutext" value="Estado de los Equipos por Cursos" />
+    </menu>
+    <menu id="1033">
+      <phrase id="menutext" value="Listado de alumnos por curso" />
+    </menu>
+    <menu id="1029">
+      <phrase id="menutext" value="Listado Titularidad de Equipos" />
+    </menu>
+    <menu id="1028">
+      <phrase id="menutext" value="Listado Titulares-Equipos-Tutores" />
+    </menu>
+    <menu id="1137">
+      <phrase id="menutext" value="Solicitudes Varias" />
+    </menu>
+    <menu id="1034">
+      <phrase id="menutext" value="Paquetes de Provision" />
+    </menu>
+    <menu id="1138">
+      <phrase id="menutext" value="Pedido de Servicio Técnico" />
+    </menu>
+    <menu id="820">
+      <phrase id="menutext" value="Usuarios" />
+    </menu>
+    <menu id="1026">
+      <phrase id="menutext" value="Importar Datos" />
+    </menu>
+    <menu id="1278">
+      <phrase id="menutext" value="Mensajeria Interna" />
+    </menu>
+    <menu id="1261">
+      <phrase id="menutext" value="Conversaciones" />
+    </menu>
+    <table id="autoridades_escolares">
+      <phrase id="tblcaption" value="Datos de las Autoridades escolares" />
+      <field id="id_autoridad" />
+      <field id="apellido_nombre">
+        <phrase id="fldcaption" value="Apellido y Nombre" />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="id_cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="id_turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="maill">
+        <phrase id="fldcaption" value="Maill" />
+      </field>
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="cargo_persona">
+      <phrase id="tblcaption" value="Cargo Personas" />
+      <field id="id_cargo">
+        <phrase id="fldcaption" value="Id Cargo" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="cursos">
+      <phrase id="tblcaption" value="cursos" />
+      <field id="id_curso">
+        <phrase id="fldcaption" value="Id Curso" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="denuncia_robo_equipo">
+      <phrase id="tblcaption" value="Denuncia por robo de equipo" />
+      <phrase id="tblpagecaption1" value="Datos del titular del equipo" />
+      <phrase id="tblpagecaption2" value="Detalle de la denuncia" />
+      <phrase id="tblpagecaption3" value="Archivos adjuntos" />
+      <field id="iddenuncia">
+        <phrase id="fldcaption" value="Nro Denuncia" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Nombre y Dni del Alumno" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro de Serie" />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Nombre y Dni del Tutor" />
+      </field>
+      <field id="quien_denuncia">
+        <phrase id="fldcaption" value="Quien Denuncia" />
+      </field>
+      <field id="detalledenuncia">
+        <phrase id="fldcaption" value="Detalle de la Denuncia" />
+      </field>
+      <field id="fecha_denuncia">
+        <phrase id="fldcaption" value="Fecha Denuncia" />
+      </field>
+      <field id="id_estado_den">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="ruta_archivo">
+        <phrase id="fldcaption" value="Ruta Archivo" />
+      </field>
+    </table>
+    <table id="detalle_atencion">
+      <phrase id="tblcaption" value="Detalle Atención" />
+      <field id="id_atencion">
+        <phrase id="fldcaption" value="Nro Atencion" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="id_detalle_atencion">
+        <phrase id="fldcaption" value="Item" />
+      </field>
+      <field id="id_tipo_falla">
+        <phrase id="fldcaption" value="Tipo de Falla" />
+      </field>
+      <field id="id_problema">
+        <phrase id="fldcaption" value="Problema" />
+      </field>
+      <field id="descripcion_problema">
+        <phrase id="fldcaption" value="Descripcion Problema" />
+      </field>
+      <field id="id_tipo_sol_problem">
+        <phrase id="fldcaption" value="Solucion al Problema" />
+      </field>
+      <field id="id_estado_atenc">
+        <phrase id="fldcaption" value="Estado Actual" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Ultima Actualizacion" />
+      </field>
+    </table>
+    <table id="devolucion_equipo">
+      <phrase id="tblcaption" value="Devolución de Equipos" />
+      <phrase id="tblpagecaption1" value="Datos del Titular" />
+      <phrase id="tblpagecaption2" value="Datos de la devolucion" />
+      <phrase id="tblpagecaption3" value="Detalles de la recepcion del equipo" />
+      <field id="dni">
+        <phrase id="fldcaption" value="Nombre y Dni Titular" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Nombre y Dni Tutor" />
+      </field>
+      <field id="admin_que_recibe">
+        <phrase id="fldcaption" value="Rte Que Recibe" />
+      </field>
+      <field id="id_autoridad">
+        <phrase id="fldcaption" value="Autoridad que Firma" />
+      </field>
+      <field id="fecha_devolucion">
+        <phrase id="fldcaption" value="Fecha Devolucion" />
+      </field>
+      <field id="id_motivo">
+        <phrase id="fldcaption" value="Motivo devolucion" />
+      </field>
+      <field id="id_estado_devol">
+        <phrase id="fldcaption" value="Estado del Equipo" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="devuelve_cargador">
+        <phrase id="fldcaption" value="Devuelve Cargador?" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+    </table>
+    <table id="division">
+      <phrase id="tblcaption" value="division" />
+      <field id="id_division">
+        <phrase id="fldcaption" value="Id Division" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="equipos">
+      <phrase id="tblcaption" value="Equipos" />
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="nromac">
+        <phrase id="fldcaption" value="Nro Mac" />
+      </field>
+      <field id="specialnumber">
+        <phrase id="fldcaption" value="S/N" />
+      </field>
+      <field id="id_ubicacion">
+        <phrase id="fldcaption" value="Ubicacion" />
+      </field>
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="id_sit_estado">
+        <phrase id="fldcaption" value="Situacion Estado" />
+      </field>
+      <field id="id_marca">
+        <phrase id="fldcaption" value="Marca" />
+      </field>
+      <field id="id_modelo">
+        <phrase id="fldcaption" value="Modelo" />
+      </field>
+      <field id="id_ano">
+        <phrase id="fldcaption" value="Año Entrega" />
+      </field>
+      <field id="user_actualiz">
+        <phrase id="fldcaption" value="User Actualiz" />
+      </field>
+      <field id="ultima_actualiz">
+        <phrase id="fldcaption" value="Ultima Actualiz" />
+      </field>
+    </table>
+    <table id="establecimientos_educativos_pase">
+      <phrase id="tblcaption" value="Establecimientos educativos Pases" />
+      <phrase id="tblpagecaption1" value="Datos del Establecimiento" />
+      <phrase id="tblpagecaption2" value="Datos del Directivo" />
+      <phrase id="tblpagecaption3" value="Datos del Rte" />
+      <field id="cue_establecimiento">
+        <phrase id="fldcaption" value="N° CUE" />
+      </field>
+      <field id="nombre_establecimiento">
+        <phrase id="fldcaption" value="Nombre Escuela" />
+      </field>
+      <field id="nombre_directivo">
+        <phrase id="fldcaption" value="Apellido y Nombre Directivo" />
+      </field>
+      <field id="cuil_directivo">
+        <phrase id="fldcaption" value="Cuil Directivo" />
+      </field>
+      <field id="nombre_rte">
+        <phrase id="fldcaption" value="Apellido y Nombre Rte" />
+      </field>
+      <field id="tel_rte">
+        <phrase id="fldcaption" value="Tel. Rte" />
+      </field>
+      <field id="email_rte">
+        <phrase id="fldcaption" value="Email Rte" />
+      </field>
+      <field id="nro_serie_server_escolar">
+        <phrase id="fldcaption" value="Nro Serie Servidor Escolar" />
+      </field>
+      <field id="contacto_establecimiento">
+        <phrase id="fldcaption" value="Contacto Escuela" />
+      </field>
+      <field id="domicilio_escuela">
+        <phrase id="fldcaption" value="Domicilio Escuela" />
+      </field>
+      <field id="id_provincia">
+        <phrase id="fldcaption" value="Provincia" />
+      </field>
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="id_localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="estado_actual_legajo_persona">
+      <phrase id="tblcaption" value="Estado actual del legajo del alumno" />
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni Alumno" />
+      </field>
+      <field id="matricula">
+        <phrase id="fldcaption" value="Matricula" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="certificado_pase">
+        <phrase id="fldcaption" value="Certif. Pase" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="tiene_dni">
+        <phrase id="fldcaption" value="Fotoc. DNI" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="certificado_medico">
+        <phrase id="fldcaption" value="Certif. Medico" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="posee_autorizacion">
+        <phrase id="fldcaption" value="Autorizacion" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="cooperadora">
+        <phrase id="fldcaption" value="Cooperadora" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+    </table>
+    <table id="estado_actual_solucion_problema">
+      <phrase id="tblcaption" value="estado actual solucion problema" />
+      <field id="id_estado_atenc">
+        <phrase id="fldcaption" value="Id Estado Atenc" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_persona">
+      <phrase id="tblcaption" value="estado alumno" />
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Id Estado Alum" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_civil">
+      <phrase id="tblcaption" value="estado civil" />
+      <field id="id_estado_civil">
+        <phrase id="fldcaption" value="Id Estado Civil" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_denuncia">
+      <phrase id="tblcaption" value="estado deuncia" />
+      <field id="id_estado_den">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="estado_equipo">
+      <phrase id="tblcaption" value="estado equipo" />
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Id Estado" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_pase">
+      <phrase id="tblcaption" value="estado pase" />
+      <field id="id_estado_pase">
+        <phrase id="fldcaption" value="Id Estado Pase" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_prestamo_equipo">
+      <phrase id="tblcaption" value="estado prestamo equipo" />
+      <field id="id_estado_prestamo">
+        <phrase id="fldcaption" value="Id Estado Prestamo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="liberacion_equipo">
+      <phrase id="tblcaption" value="Liberacion de Equipos" />
+      <phrase id="tblpagecaption1" value="Datos relacionados al  Titular y a la liberacion" />
+      <phrase id="tblpagecaption2" value="Datos relacionados a la Finalizacion" />
+      <phrase id="tblpagecaption3" value="Archivos de documentos solicitados" />
+      <field id="dni">
+        <phrase id="fldcaption" value="Nombre y Dni del Titular" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Equipo Asignado " />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Nombre y Dni del Tutor" />
+      </field>
+      <field id="fecha_finalizacion">
+        <phrase id="fldcaption" value="Fecha Finalizacion" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="id_modalidad">
+        <phrase id="fldcaption" value="Modalidad" />
+      </field>
+      <field id="id_nivel">
+        <phrase id="fldcaption" value="Nivel" />
+      </field>
+      <field id="id_autoridad">
+        <phrase id="fldcaption" value="Autoridad Firmante" />
+      </field>
+      <field id="fecha_liberacion">
+        <phrase id="fldcaption" value="Fecha Liberacion" />
+      </field>
+      <field id="ruta_archivo_copia_titulo">
+        <phrase id="fldcaption" value="Ruta Archivo Copia Titulo" />
+      </field>
+    </table>
+    <table id="localidades">
+      <phrase id="tblcaption" value="Localidades" />
+      <field id="id_localidad">
+        <phrase id="fldcaption" value="Id Localidad" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+    </table>
+    <table id="marca">
+      <phrase id="tblcaption" value="marca" />
+      <field id="id_marca">
+        <phrase id="fldcaption" value="Id Marca" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="materias_adeudadas">
+      <phrase id="tblcaption" value="Listado de Materias Adeudadas" />
+      <field id="id_mat_adeuda">
+        <phrase id="fldcaption" value="Id Mat Adeuda" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni Alumno" />
+      </field>
+      <field id="id_materia">
+        <phrase id="fldcaption" value="Materia" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="user_actualiz">
+        <phrase id="fldcaption" value="User Actualiz" />
+      </field>
+    </table>
+    <table id="materias_anuales">
+      <phrase id="tblcaption" value="Materias Anuales" />
+      <field id="id_materia">
+        <phrase id="fldcaption" value="Id Materia" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="id_curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+    </table>
+    <table id="modalidad_establecimiento">
+      <phrase id="tblcaption" value="modalidad establecimiento" />
+      <field id="id_modalidad">
+        <phrase id="fldcaption" value="Id Modalidad" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="modelo">
+      <phrase id="tblcaption" value="modelo" />
+      <field id="id_modelo">
+        <phrase id="fldcaption" value="Id Modelo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+      <field id="id_marca">
+        <phrase id="fldcaption" value="Marca" />
+      </field>
+    </table>
+    <table id="motivo_prestamo_equipo">
+      <phrase id="tblcaption" value="motivo prestamo equipo" />
+      <field id="id_motivo_prestamo">
+        <phrase id="fldcaption" value="Id Motivo Prestamo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="motivo_reasignacion">
+      <phrase id="tblcaption" value="motivo reasignacion" />
+      <field id="id_motivo_reasig">
+        <phrase id="fldcaption" value="Id Motivo Reasig" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="paises">
+      <phrase id="tblcaption" value="Paises" />
+      <field id="id_pais">
+        <phrase id="fldcaption" value="Id Nacionalidad" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="nivel_educativo">
+      <phrase id="tblcaption" value="nivel educativo" />
+      <field id="id_nivel">
+        <phrase id="fldcaption" value="Id Nivel" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="observacion_persona">
+      <phrase id="tblcaption" value="Observaciones del alumno" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="id_observacion">
+        <phrase id="fldcaption" value="Id Observacion" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni Alumno" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="observacion_equipo">
+      <phrase id="tblcaption" value="Observaciones del Equipo" />
+      <field id="id_observacion">
+        <phrase id="fldcaption" value="Id Observacion" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+    </table>
+    <table id="ocupacion_tutor">
+      <phrase id="tblcaption" value="ocupacion tutor" />
+      <field id="id_ocupacion">
+        <phrase id="fldcaption" value="Id Ocupacion" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="pase_establecimiento">
+      <phrase id="tblcaption" value="Pase entre Escuelas" />
+      <phrase id="tblpagecaption1" value="Datos del Alumno/a" />
+      <phrase id="tblpagecaption2" value="Datos del Tutor/a" />
+      <phrase id="tblpagecaption3" value="Datos de la Netbook a Transferir" />
+      <phrase id="tblpagecaption4" value="Escuela Responsable de la Baja" />
+      <phrase id="tblpagecaption5" value="Escuela Responsable del Alta" />
+      <phrase id="tblpagecaption6" value="Datos Extras" />
+      <field id="id_pase">
+        <phrase id="fldcaption" value="Nro Pase" />
+      </field>
+      <field id="serie_equipo">
+        <phrase id="fldcaption" value="Equipo a Transferir" />
+      </field>
+      <field id="id_hardware">
+        <phrase id="fldcaption" value="Id Hardware" />
+      </field>
+      <field id="sn">
+        <phrase id="fldcaption" value="SN" />
+      </field>
+      <field id="modelo_net">
+        <phrase id="fldcaption" value="Modelo" />
+      </field>
+      <field id="marca_arranque">
+        <phrase id="fldcaption" value="Marca de Arranque" />
+      </field>
+      <field id="nombre_titular">
+        <phrase id="fldcaption" value="Nombre Titular" />
+      </field>
+      <field id="dni_titular">
+        <phrase id="fldcaption" value="Dni" />
+      </field>
+      <field id="cuil_titular">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="dnitutor">
+        <phrase id="fldcaption" value="Buscar Tutor" />
+      </field>
+      <field id="nombre_tutor">
+        <phrase id="fldcaption" value="Apellido y Nombre" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="tel_tutor">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celtutor">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="cue_establecimiento_alta">
+        <phrase id="fldcaption" value="CUE Alta" />
+      </field>
+      <field id="escuela_alta">
+        <phrase id="fldcaption" value="Escuela" />
+      </field>
+      <field id="directivo_alta">
+        <phrase id="fldcaption" value="Nombre Directivo" />
+      </field>
+      <field id="cuil_directivo_alta">
+        <phrase id="fldcaption" value="Cuil Directivo" />
+      </field>
+      <field id="dpto_esc_alta">
+        <phrase id="fldcaption" value="Departamnto" />
+      </field>
+      <field id="localidad_esc_alta">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="domicilio_esc_alta">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="rte_alta">
+        <phrase id="fldcaption" value="Referente Tecnico" />
+      </field>
+      <field id="tel_rte_alta">
+        <phrase id="fldcaption" value="Telefono Rte" />
+      </field>
+      <field id="email_rte_alta">
+        <phrase id="fldcaption" value="Email Rte" />
+      </field>
+      <field id="serie_server_alta">
+        <phrase id="fldcaption" value="Nro Serie Servidor" />
+      </field>
+      <field id="cue_establecimiento_baja">
+        <phrase id="fldcaption" value="CUE Baja" />
+      </field>
+      <field id="escuela_baja">
+        <phrase id="fldcaption" value="Escuela" />
+      </field>
+      <field id="directivo_baja">
+        <phrase id="fldcaption" value="Nombre Directivo" />
+      </field>
+      <field id="cuil_directivo_baja">
+        <phrase id="fldcaption" value="Cuil Directivo" />
+      </field>
+      <field id="dpto_esc_baja">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad_esc_baja">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="domicilio_esc_baja">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="rte_baja">
+        <phrase id="fldcaption" value="Referente Tecnico" />
+      </field>
+      <field id="tel_rte_baja">
+        <phrase id="fldcaption" value="Telefono Rte" />
+      </field>
+      <field id="email_rte_baja">
+        <phrase id="fldcaption" value="Email Rte" />
+      </field>
+      <field id="serie_server_baja">
+        <phrase id="fldcaption" value="Nro Serie Servidor" />
+      </field>
+      <field id="fecha_pase">
+        <phrase id="fldcaption" value="Fecha Pase" />
+      </field>
+      <field id="id_estado_pase">
+        <phrase id="fldcaption" value="Estado del Pase" />
+      </field>
+      <field id="ruta_archivo">
+        <phrase id="fldcaption" value="Archivos Varios" />
+      </field>
+    </table>
+    <table id="prestamo_equipo">
+      <phrase id="tblcaption" value="Prestamo de Equipos" />
+      <phrase id="tblpagecaption1" value="Datos del Beneficiario y equipo prestado" />
+      <phrase id="tblpagecaption2" value="Datos del Alta del Prestamo" />
+      <phrase id="tblpagecaption3" value="Datos de la devolucion del Prestamo" />
+      <field id="id_prestamo">
+        <phrase id="fldcaption" value="Nro Prestamo" />
+      </field>
+      <field id="apellidos_nombres_beneficiario">
+        <phrase id="fldcaption" value="Benficiario del Prestamo" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni del Beneficiario" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Equipo Prestado" />
+      </field>
+      <field id="id_motivo_prestamo">
+        <phrase id="fldcaption" value="Motivo del Prestamo" />
+      </field>
+      <field id="fecha_prestamo">
+        <phrase id="fldcaption" value="Fecha Prestamo" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="prestamo_cargador">
+        <phrase id="fldcaption" value="Se presta Cargador?" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="id_estado_prestamo">
+        <phrase id="fldcaption" value="Estado del Prestamo" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="id_estado_devol">
+        <phrase id="fldcaption" value="Equipo se Devuelve" />
+      </field>
+      <field id="devuelve_cargador">
+        <phrase id="fldcaption" value="Devuelve Cargador" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+        <phrase id="fldtagvalue3" value="NO CORRESPONDE" />
+        <phrase id="fldtagcaption3" value="NO CORRESPONDE" />
+      </field>
+    </table>
+    <table id="problema">
+      <phrase id="tblcaption" value="problema" />
+      <field id="id_problema">
+        <phrase id="fldcaption" value="Id Problema" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="provincias">
+      <phrase id="tblcaption" value="Provincias" />
+      <field id="id_provincia">
+        <phrase id="fldcaption" value="Id Provincia" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="id_pais">
+        <phrase id="fldcaption" value="Pais" />
+      </field>
+    </table>
+    <table id="reasignacion_equipo">
+      <phrase id="tblcaption" value="reasignacion equipo" />
+      <phrase id="tblpagecaption1" value="Datos del Titular Original" />
+      <phrase id="tblpagecaption2" value="Equipo a Reasignar" />
+      <phrase id="tblpagecaption3" value="Datos del Nuevo Titular" />
+      <phrase id="tblpagecaption4" value="Datos de la Reasignación" />
+      <field id="id_reasignacion">
+        <phrase id="fldcaption" value="Nro Reasignacion" />
+      </field>
+      <field id="titular_original">
+        <phrase id="fldcaption" value="Tutular" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Equipo a Reasignar" />
+      </field>
+      <field id="nuevo_titular">
+        <phrase id="fldcaption" value="Nuevo Titular" />
+      </field>
+      <field id="dni_nuevo_tit">
+        <phrase id="fldcaption" value="Dni" />
+      </field>
+      <field id="id_motivo_reasig">
+        <phrase id="fldcaption" value="Motivo" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="fecha_reasignacion">
+        <phrase id="fldcaption" value="Fecha Reasignacion" />
+      </field>
+    </table>
+    <table id="sexo_personas">
+      <phrase id="tblcaption" value="sexo personas" />
+      <field id="id_sexo">
+        <phrase id="fldcaption" value="Id Sexo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="situacion_estado">
+      <phrase id="tblcaption" value="situacion estado" />
+      <field id="id_sit_estado">
+        <phrase id="fldcaption" value="Id Sit Estado" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="tipo_prioridad_atencion">
+      <phrase id="tblcaption" value="tipo prioridad atencion" />
+      <field id="id_prioridad">
+        <phrase id="fldcaption" value="Id Prioridad" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="tipo_relacion_alumno_tutor">
+      <phrase id="tblcaption" value="tipo relacion alumno tutor" />
+      <field id="id_relacion">
+        <phrase id="fldcaption" value="Id Relacion" />
+      </field>
+      <field id="desripcion">
+        <phrase id="fldcaption" value="Desripcion" />
+      </field>
+    </table>
+    <table id="tipo_retiro_atencion_st">
+      <phrase id="tblcaption" value="tipo retiro atencion st" />
+      <field id="id_tipo_retiro">
+        <phrase id="fldcaption" value="Id Tipo Retiro" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="tipo_solucion_problema">
+      <phrase id="tblcaption" value="tipo solucion problema" />
+      <field id="id_tipo_sol_problem">
+        <phrase id="fldcaption" value="Id Tipo Sol Problem" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="turno">
+      <phrase id="tblcaption" value="turno" />
+      <field id="id_turno">
+        <phrase id="fldcaption" value="Id Turno" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="tutores">
+      <phrase id="tblcaption" value="Tutores" />
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Dni Tutor" />
+      </field>
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="edad">
+        <phrase id="fldcaption" value="Edad" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="tel_contacto">
+        <phrase id="fldcaption" value="Tel Contacto" />
+      </field>
+      <field id="fecha_nac">
+        <phrase id="fldcaption" value="Fecha Nac" />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="mashijos">
+        <phrase id="fldcaption" value="Mas Hijos" />
+        <phrase id="fldtagvalue1" value="No" />
+        <phrase id="fldtagcaption1" value="No" />
+        <phrase id="fldtagvalue2" value="Si" />
+        <phrase id="fldtagcaption2" value="Si" />
+      </field>
+      <field id="id_estado_civil">
+        <phrase id="fldcaption" value="Estado Civil" />
+      </field>
+      <field id="id_sexo">
+        <phrase id="fldcaption" value="Sexo" />
+      </field>
+      <field id="id_relacion">
+        <phrase id="fldcaption" value="Relacion Alumno" />
+      </field>
+      <field id="id_ocupacion">
+        <phrase id="fldcaption" value="Ocupacion" />
+      </field>
+      <field id="lugar_nacimiento">
+        <phrase id="fldcaption" value="Lugar Nacimiento" />
+      </field>
+      <field id="id_provincia">
+        <phrase id="fldcaption" value="Provincia" />
+      </field>
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="id_localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="user_actualiz">
+        <phrase id="fldcaption" value="User Actualiz" />
+      </field>
+    </table>
+    <table id="ubicacion_equipo">
+      <phrase id="tblcaption" value="ubicacion equipo" />
+      <field id="id_ubicacion">
+        <phrase id="fldcaption" value="Id Ubicacion" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_equipo_devuelto">
+      <phrase id="tblcaption" value="estado equipo devuleto" />
+      <field id="id_estado_devol">
+        <phrase id="fldcaption" value="Id Estado Devol" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="personas">
+      <phrase id="tblcaption" value="Alumnos y Docentes" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="edad">
+        <phrase id="fldcaption" value="Edad" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="tel_contacto">
+        <phrase id="fldcaption" value="Tel Contacto" />
+      </field>
+      <field id="fecha_nac">
+        <phrase id="fldcaption" value="Fecha de Nacimiento" />
+      </field>
+      <field id="lugar_nacimiento">
+        <phrase id="fldcaption" value="Lugar Nacimiento" />
+      </field>
+      <field id="cod_postal">
+        <phrase id="fldcaption" value="Cod Postal" />
+      </field>
+      <field id="repitente">
+        <phrase id="fldcaption" value="Repitente" />
+        <phrase id="fldtagvalue1" value="1" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="2" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="id_estado_civil">
+        <phrase id="fldcaption" value="Estado Civil" />
+      </field>
+      <field id="id_provincia">
+        <phrase id="fldcaption" value="Provincia" />
+      </field>
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="id_localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="id_sexo">
+        <phrase id="fldcaption" value="Sexo" />
+      </field>
+      <field id="id_cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="id_curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="id_division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="id_turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Tutor a Cargo" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Equipo Asigada" />
+      </field>
+      <field id="user_actualiz">
+        <phrase id="fldcaption" value="User Actualiz" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="dato_establecimiento">
+      <phrase id="tblcaption" value="Datos de mi Establecimiento" />
+      <phrase id="tblpagecaption1" value="Datos del Establecimiento Educativo" />
+      <phrase id="tblpagecaption2" value="Datos del Directivo" />
+      <phrase id="tblpagecaption3" value="Datos del Vicedirectivo" />
+      <phrase id="tblpagecaption4" value="Datos del RTE N° 1" />
+      <phrase id="tblpagecaption5" value="Datos del RTE N° 2" />
+      <phrase id="tblpagecaption6" value="Datos del Servidor Escolar" />
+      <phrase id="tblpagecaption7" value="Datos del Piso Tecnologico" />
+      <field id="cue">
+        <phrase id="fldcaption" value="Nro de CUE" />
+      </field>
+      <field id="nombre_establecimiento">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="id_localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="telefono_escuela">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="mail_escuela">
+        <phrase id="fldcaption" value="Mail" />
+      </field>
+      <field id="matricula_actual">
+        <phrase id="fldcaption" value="Matricula Actual" />
+      </field>
+      <field id="cantidad_aulas">
+        <phrase id="fldcaption" value="Cantidad Aulas" />
+      </field>
+      <field id="comparte_edificio">
+        <phrase id="fldcaption" value="Comparte Edificio" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="cargo_autoridad">
+      <phrase id="tblcaption" value="cargo autoridad" />
+      <field id="id_cargo">
+        <phrase id="fldcaption" value="Id Cargo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_server">
+      <phrase id="tblcaption" value="estado server" />
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Id Estado" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="marca_server">
+      <phrase id="tblcaption" value="marca server" />
+      <field id="id_marca">
+        <phrase id="fldcaption" value="Id Marca" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="modelo_server">
+      <phrase id="tblcaption" value="modelo server" />
+      <field id="id_modelo">
+        <phrase id="fldcaption" value="Id Modelo" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="piso_tecnologico">
+      <phrase id="tblcaption" value="Datos del piso Tecnologico" />
+      <field id="id_piso">
+        <phrase id="fldcaption" value="Id Piso" />
+      </field>
+      <field id="switch">
+        <phrase id="fldcaption" value="Tiene Switch" />
+        <phrase id="fldtagvalue1" value="Si" />
+        <phrase id="fldtagcaption1" value="Si" />
+        <phrase id="fldtagvalue2" value="No" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="cantidad_swich">
+        <phrase id="fldcaption" value="Cantidad Swich" />
+      </field>
+      <field id="estado_switch">
+        <phrase id="fldcaption" value="Estado Switch" />
+      </field>
+      <field id="cantidad_ap">
+        <phrase id="fldcaption" value="Cantidad Ap" />
+      </field>
+      <field id="estado_ap">
+        <phrase id="fldcaption" value="Estado Aps" />
+      </field>
+      <field id="cantidad_ap_func">
+        <phrase id="fldcaption" value="Cantidad segun Estado" />
+      </field>
+      <field id="ups">
+        <phrase id="fldcaption" value="Tiene Ups" />
+        <phrase id="fldtagvalue1" value="Si" />
+        <phrase id="fldtagcaption1" value="Si" />
+        <phrase id="fldtagvalue2" value="No" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="estado_ups">
+        <phrase id="fldcaption" value="Estado Ups" />
+      </field>
+      <field id="cableado">
+        <phrase id="fldcaption" value="Cableado" />
+        <phrase id="fldtagvalue1" value="Si" />
+        <phrase id="fldtagcaption1" value="Si" />
+        <phrase id="fldtagvalue2" value="No" />
+        <phrase id="fldtagcaption2" value="No" />
+      </field>
+      <field id="estado_cableado">
+        <phrase id="fldcaption" value="Estado Cableado" />
+      </field>
+      <field id="porcent_estado_cab">
+        <phrase id="fldcaption" value="% del Estado" />
+      </field>
+      <field id="plano_escuela">
+        <phrase id="fldcaption" value="Plano Escuela" />
+      </field>
+      <field id="porcent_func_piso">
+        <phrase id="fldcaption" value="%  Func. Piso" />
+      </field>
+      <field id="marca_modelo_serie_ups">
+        <phrase id="fldcaption" value="Marca-Modelo-Serie Ups" />
+      </field>
+      <field id="ultima_actualizacion">
+        <phrase id="fldcaption" value="Ultima Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+    </table>
+    <table id="referente_tecnico">
+      <phrase id="tblcaption" value="Datos de los Referentes Tecnicos Escolares" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="dnirte">
+        <phrase id="fldcaption" value="N° DNI" />
+      </field>
+      <field id="apelldio_nombre">
+        <phrase id="fldcaption" value="Apelldio y Nombre" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="mail">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="id_turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualiz." />
+      </field>
+      <field id="fecha_ingreso">
+        <phrase id="fldcaption" value="Fecha Ingreso" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo que posee" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+    </table>
+    <table id="servidor_escolar">
+      <phrase id="tblcaption" value="Datos del Servidor Escolar" />
+      <field id="nro_serie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="sn">
+        <phrase id="fldcaption" value="SN" />
+      </field>
+      <field id="cant_net_asoc">
+        <phrase id="fldcaption" value="Cant Net Asoc" />
+      </field>
+      <field id="id_marca">
+        <phrase id="fldcaption" value="Marca" />
+      </field>
+      <field id="id_so">
+        <phrase id="fldcaption" value="Sistema Operativo" />
+      </field>
+      <field id="id_estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="id_modelo">
+        <phrase id="fldcaption" value="Modelo" />
+      </field>
+      <field id="user_server">
+        <phrase id="fldcaption" value="User Server" />
+      </field>
+      <field id="pass_server">
+        <phrase id="fldcaption" value="Contraseña Topadmin" />
+      </field>
+      <field id="user_tdserver">
+        <phrase id="fldcaption" value="User Td Server" />
+      </field>
+      <field id="pass_tdserver">
+        <phrase id="fldcaption" value="Contraseña TDServer" />
+      </field>
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="so_server">
+      <phrase id="tblcaption" value="so server" />
+      <field id="id_so">
+        <phrase id="fldcaption" value="Id SO" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+    </table>
+    <table id="turno_rte">
+      <phrase id="tblcaption" value="turno rte" />
+      <field id="id_turno">
+        <phrase id="fldcaption" value="Id Turno" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="estado_equipos_piso">
+      <phrase id="tblcaption" value="estado equipos piso" />
+      <field id="id_estado_equipo_piso">
+        <phrase id="fldcaption" value="Id Estado Equipo piso" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="ano_entrega">
+      <phrase id="tblcaption" value="ano entrega" />
+      <field id="id_ano">
+        <phrase id="fldcaption" value="Id Ano" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="tipo_falla">
+      <phrase id="tblcaption" value="tipo falla" />
+      <field id="id_tipo_falla">
+        <phrase id="fldcaption" value="Id Tipo Falla" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Descripcion" />
+      </field>
+    </table>
+    <table id="atencion_equipos">
+      <phrase id="tblcaption" value="Atencion de Equipos" />
+      <field id="id_atencion">
+        <phrase id="fldcaption" value="Nro de Atencion" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Nombre y Dni Titular" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="fecha_entrada">
+        <phrase id="fldcaption" value="Fecha Entrada" />
+      </field>
+      <field id="id_prioridad">
+        <phrase id="fldcaption" value="Nivel Prioridad" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="atencion_para_st">
+      <phrase id="tblcaption" value="Detalle Servicio Técnico" />
+      <field id="id_atencion">
+        <phrase id="fldcaption" value="Id Atencion" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="nro_tiket">
+        <phrase id="fldcaption" value="Nro Tiket" />
+      </field>
+      <field id="id_tipo_retiro">
+        <phrase id="fldcaption" value="Quien Retiro" />
+      </field>
+      <field id="referencia_tipo_retiro">
+        <phrase id="fldcaption" value="N° Op/Orden" />
+      </field>
+      <field id="fecha_retiro">
+        <phrase id="fldcaption" value="Fecha Retiro" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="fecha_devolucion">
+        <phrase id="fldcaption" value="Fecha Devolucion" />
+      </field>
+    </table>
+    <table id="audittrail">
+      <phrase id="tblcaption" value="audittrail" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="script">
+        <phrase id="fldcaption" value="script" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="user" />
+      </field>
+      <field id="action">
+        <phrase id="fldcaption" value="action" />
+      </field>
+      <field id="_table">
+        <phrase id="fldcaption" value="table" />
+      </field>
+      <field id="_field">
+        <phrase id="fldcaption" value="field" />
+      </field>
+      <field id="keyvalue">
+        <phrase id="fldcaption" value="keyvalue" />
+      </field>
+      <field id="oldvalue">
+        <phrase id="fldcaption" value="oldvalue" />
+      </field>
+      <field id="newvalue">
+        <phrase id="fldcaption" value="newvalue" />
+      </field>
+    </table>
+    <table id="observacion_tutor">
+      <phrase id="tblcaption" value="observacion tutor" />
+      <field id="id_observacion">
+        <phrase id="fldcaption" value="Id Observacion" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Dni Tutor" />
+      </field>
+    </table>
+    <table id="departamento">
+      <phrase id="tblcaption" value="Departamentos" />
+      <field id="id_departamento">
+        <phrase id="fldcaption" value="Id Departamento" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="id_provincia">
+        <phrase id="fldcaption" value="Provincia" />
+      </field>
+    </table>
+    <table id="motivo_devolucion">
+      <phrase id="tblcaption" value="motivo devolucion" />
+      <field id="id_motivo">
+        <phrase id="fldcaption" value="Id Motivo" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="estado_devolucion_prestamo">
+      <phrase id="tblcaption" value="estado devolucion prestamo" />
+      <field id="id_estado_devol">
+        <phrase id="fldcaption" value="Id Estado Devol" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="estado_paquete">
+      <phrase id="tblcaption" value="Estado Paquetes" />
+      <field id="id_estado_paquete">
+        <phrase id="fldcaption" value="Id Estado Paquete" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="paquetes_provision">
+      <phrase id="tblcaption" value="Paquetes de Provision" />
+      <phrase id="tblpagecaption1" value="Datos del Equipo" />
+      <phrase id="tblpagecaption2" value="Detalle de la Solicitud" />
+      <field id="nropedido">
+        <phrase id="fldcaption" value="Nro Pedido" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Serie Netbook" />
+      </field>
+      <field id="id_hardware">
+        <phrase id="fldcaption" value="Id Hardware" />
+      </field>
+      <field id="sn">
+        <phrase id="fldcaption" value="S/N" />
+      </field>
+      <field id="marca_arranque">
+        <phrase id="fldcaption" value="Marca Arranque" />
+      </field>
+      <field id="id_motivo">
+        <phrase id="fldcaption" value="Motivo del pedido" />
+      </field>
+      <field id="id_tipo_extraccion">
+        <phrase id="fldcaption" value="Tipo Extraccion" />
+      </field>
+      <field id="email_solicitante">
+        <phrase id="fldcaption" value="Email Solicitante" />
+      </field>
+      <field id="id_estado_paquete">
+        <phrase id="fldcaption" value="Estado Paquete" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actulizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="tipo_extraccion">
+      <phrase id="tblcaption" value="tipo extraccion" />
+      <field id="id_tipo_extraccion">
+        <phrase id="fldcaption" value="Id Tipo Extraccion" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="motivo_pedido_paquetes">
+      <phrase id="tblcaption" value="motivo pedido paquetes" />
+      <field id="id_motivo">
+        <phrase id="fldcaption" value="Id Motivo" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="usuarios">
+      <phrase id="tblcaption" value="Usuarios" />
+      <field id="nombretitular">
+        <phrase id="fldcaption" value="Apellido y Nombre" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni" />
+      </field>
+      <field id="curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombre Usuario" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="Password" />
+      </field>
+      <field id="nivel_usuario">
+        <phrase id="fldcaption" value="Nivel Usuario" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="userlevelpermissions" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="tablename" />
+      </field>
+      <field id="permission">
+        <phrase id="fldcaption" value="permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="userlevels" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="userlevelname" />
+      </field>
+    </table>
+    <table id="estado_espera_prestamo">
+      <phrase id="tblcaption" value="estado espera prestamo" />
+      <field id="id_estado_espera">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+    </table>
+    <table id="lista_espera_prestamo">
+      <phrase id="tblcaption" value="lista espera prestamo" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos y Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni" />
+      </field>
+      <field id="id_motivo_prestamo">
+        <phrase id="fldcaption" value="Motivo del Prestamo" />
+      </field>
+      <field id="observacion">
+        <phrase id="fldcaption" value="Observacion" />
+      </field>
+      <field id="id_curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="id_division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="id_estado_espera">
+        <phrase id="fldcaption" value="Estado Actual" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="historial_atencion">
+      <phrase id="tblcaption" value="Historia de la Atención" />
+      <field id="id_historial">
+        <phrase id="fldcaption" value="Id Historial" />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="id_atencion">
+        <phrase id="fldcaption" value="Id Atencion" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+    </table>
+    <table id="titulares2dequipos2dtutores">
+      <phrase id="tblcaption" value="Relacion Titular-&gt;Equipos-&gt;Tutores" />
+      <phrase id="tblpagecaption1" value="Titular" />
+      <phrase id="tblpagecaption2" value="Equipo Asignado" />
+      <phrase id="tblpagecaption3" value="Tutor a cargo" />
+      <field id="apelldio_y_nombre_titular">
+        <phrase id="fldcaption" value="Apellidos Nombres Titular" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="equipo_asignado">
+        <phrase id="fldcaption" value="Equipo Asigada" />
+      </field>
+      <field id="apellido_y_nombre_tutor">
+        <phrase id="fldcaption" value="Apellidos Nombres Tutor" />
+      </field>
+      <field id="dni_tutor">
+        <phrase id="fldcaption" value="Dni Tutor" />
+      </field>
+      <field id="cuil_tutor">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+    </table>
+    <table id="titularidad2dequipos">
+      <phrase id="tblcaption" value="Titularidad de los Equipos" />
+      <phrase id="tblpagecaption1" value="Datos del Titular" />
+      <phrase id="tblpagecaption2" value="Equipo Asignado" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="nroserie">
+        <phrase id="fldcaption" value="Equipo Asigada" />
+      </field>
+    </table>
+    <table id="estado_titulares_cursos">
+      <phrase id="tblcaption" value="Estado de Alumnos/Doc. por Cursos" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="division">
+        <phrase id="fldcaption" value="División" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+    </table>
+    <table id="estado_documentacion_personas">
+      <phrase id="tblcaption" value="Estado de la documentacion Alumnos" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="matricula">
+        <phrase id="fldcaption" value="Matricula" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="certificado_pase">
+        <phrase id="fldcaption" value="Certif. Pase" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="tiene_dni">
+        <phrase id="fldcaption" value="Fotoc. DNI" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="certificado_medico">
+        <phrase id="fldcaption" value="Certif. Medico" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="posee_autorizacion">
+        <phrase id="fldcaption" value="Autorizacion" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="cooperadora">
+        <phrase id="fldcaption" value="Cooperadora" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+    </table>
+    <table id="estado_equipos_porcurso">
+      <phrase id="tblcaption" value="Estado de los Equipos por Cursos" />
+      <phrase id="tblpagecaption1" value="Datos del Titular" />
+      <phrase id="tblpagecaption2" value="Datos del Equipo" />
+      <field id="nombre_titular">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="equipo">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="estado">
+        <phrase id="fldcaption" value="Estado Equipo" />
+      </field>
+      <field id="ultima_actualiz_">
+        <phrase id="fldcaption" value="Ultima Actualiz" />
+      </field>
+    </table>
+    <table id="alumnos_porcurso">
+      <phrase id="tblcaption" value="Alumnos por Cursos" />
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="curso">
+        <phrase id="fldcaption" value="Curso" />
+      </field>
+      <field id="division">
+        <phrase id="fldcaption" value="Division" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+    </table>
+    <table id="pedido_paquetes">
+      <phrase id="tblcaption" value="Pedido de Paquetes" />
+      <phrase id="tblpagecaption1" value="Datos del Establecimiento" />
+      <phrase id="tblpagecaption2" value="Detalle del Pedido" />
+      <field id="cue">
+        <phrase id="fldcaption" value="Nro de CUE" />
+      </field>
+      <field id="establecimiento">
+        <phrase id="fldcaption" value="Nombre" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="motivo_pedido">
+        <phrase id="fldcaption" value="Motivo Pedido" />
+      </field>
+      <field id="nb0_de_serie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="special_number_o_numero_especial">
+        <phrase id="fldcaption" value="S/N" />
+      </field>
+      <field id="id_hardware">
+        <phrase id="fldcaption" value="Id Hardware" />
+      </field>
+      <field id="extraccid3n_de_datos">
+        <phrase id="fldcaption" value="Extraccion Datos" />
+      </field>
+      <field id="marca_de_arranque">
+        <phrase id="fldcaption" value="Marca Arranque" />
+      </field>
+      <field id="titular">
+        <phrase id="fldcaption" value="Apellidos Nombres Titular" />
+      </field>
+      <field id="serie_netbook">
+        <phrase id="fldcaption" value="Serie Netbook" />
+      </field>
+      <field id="id_estado_paquete">
+        <phrase id="fldcaption" value="Estado Paquete" />
+      </field>
+      <field id="correo_electronico2femail">
+        <phrase id="fldcaption" value="CORREO ELECTRONICO/ EMAIL" />
+      </field>
+    </table>
+    <table id="pedido_st">
+      <phrase id="tblcaption" value="Pedido de Servicio Técnico" />
+      <field id="cue">
+        <phrase id="fldcaption" value="CUE" />
+      </field>
+      <field id="escuela">
+        <phrase id="fldcaption" value="ESTABLECIMIENTO" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="DEPARTAMENTO" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="LOCALIDAD" />
+      </field>
+      <field id="serie_netbook">
+        <phrase id="fldcaption" value="SERIE NET" />
+      </field>
+      <field id="nb0_tiket">
+        <phrase id="fldcaption" value="N° TIKET" />
+      </field>
+      <field id="problema">
+        <phrase id="fldcaption" value="PROBLEMA" />
+      </field>
+      <field id="id_tipo_retiro">
+        <phrase id="fldcaption" value="Id Tipo Retiro" />
+      </field>
+    </table>
+    <table id="historial_atenciones">
+      <phrase id="tblcaption" value="Seguimiento de las Atenciones" />
+      <field id="id_atencion">
+        <phrase id="fldcaption" value="Nro de Atencion" />
+      </field>
+      <field id="apellidos_nombres">
+        <phrase id="fldcaption" value="Apellidos Nombres Titular " />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="Dni " />
+      </field>
+      <field id="detalle">
+        <phrase id="fldcaption" value="Detalle" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+    </table>
+    <table id="datosestablecimiento">
+      <phrase id="tblcaption" value="datosestablecimiento" />
+      <field id="cue">
+        <phrase id="fldcaption" value="CUE" />
+      </field>
+      <field id="establecimiento">
+        <phrase id="fldcaption" value="Establecimiento" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="mail">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="nro_matricula">
+        <phrase id="fldcaption" value="Matricula Actual" />
+      </field>
+      <field id="cantidad_aulas">
+        <phrase id="fldcaption" value="Cantidad Aulas" />
+      </field>
+      <field id="comparte_edificio">
+        <phrase id="fldcaption" value="Comparte Edificio" />
+      </field>
+      <field id="ultima_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="datosrte">
+      <phrase id="tblcaption" value="datosrte" />
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+      <field id="establecimiento">
+        <phrase id="fldcaption" value="Establecimiento" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="apelldio_y_nombre">
+        <phrase id="fldcaption" value="Apelldio y Nombre Rte" />
+      </field>
+      <field id="dni">
+        <phrase id="fldcaption" value="DNI" />
+      </field>
+      <field id="domicilio">
+        <phrase id="fldcaption" value="Domicilio" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="turno">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="fecha_ingreso">
+        <phrase id="fldcaption" value="Fecha Ingreso" />
+      </field>
+      <field id="titulo">
+        <phrase id="fldcaption" value="Titulo que Posee" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualiz." />
+      </field>
+    </table>
+    <table id="datosdirectivos">
+      <phrase id="tblcaption" value="datosdirectivos" />
+      <field id="cue">
+        <phrase id="fldcaption" value="CUE" />
+      </field>
+      <field id="nombre_establecimiento">
+        <phrase id="fldcaption" value="Establecimiento" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="nombre1">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="apellido_nombre">
+        <phrase id="fldcaption" value="Apellido y Nombre" />
+      </field>
+      <field id="cuil">
+        <phrase id="fldcaption" value="Cuil" />
+      </field>
+      <field id="descripcion">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="descripcion1">
+        <phrase id="fldcaption" value="Turno" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="maill">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="datos_extras_escuela">
+      <phrase id="tblcaption" value="Datos extras de la escuela" />
+      <field id="id_dato">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="cue">
+        <phrase id="fldcaption" value="Cue" />
+      </field>
+      <field id="usuario_conig">
+        <phrase id="fldcaption" value="Usuario Conig" />
+      </field>
+      <field id="password_conig">
+        <phrase id="fldcaption" value="Password Conig" />
+      </field>
+      <field id="tiene_internet">
+        <phrase id="fldcaption" value="Tiene Internet" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="servicio_internet">
+        <phrase id="fldcaption" value="Servicio Internet" />
+      </field>
+      <field id="estado_internet">
+        <phrase id="fldcaption" value="Estado Internet" />
+        <phrase id="fldtagvalue1" value="FUNCIONA" />
+        <phrase id="fldtagcaption1" value="FUNCIONA" />
+        <phrase id="fldtagvalue2" value="NO FUNCIONA" />
+        <phrase id="fldtagcaption2" value="NO FUNCIONA" />
+      </field>
+      <field id="quien_paga">
+        <phrase id="fldcaption" value="Quien Paga" />
+      </field>
+    </table>
+    <table id="datosservidor">
+      <phrase id="tblcaption" value="datosservidor" />
+      <field id="cue">
+        <phrase id="fldcaption" value="CUE" />
+      </field>
+      <field id="nombre_establecimiento">
+        <phrase id="fldcaption" value="Establecimiento" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="nro_serie">
+        <phrase id="fldcaption" value="Nro Serie" />
+      </field>
+      <field id="sn">
+        <phrase id="fldcaption" value="SN" />
+      </field>
+      <field id="cant_net_asoc">
+        <phrase id="fldcaption" value="Cant Net Asoc" />
+      </field>
+      <field id="marca">
+        <phrase id="fldcaption" value="Marca" />
+      </field>
+      <field id="s_o">
+        <phrase id="fldcaption" value="Sistema Operativo" />
+      </field>
+      <field id="estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="modelo">
+        <phrase id="fldcaption" value="Modelo" />
+      </field>
+      <field id="user_server">
+        <phrase id="fldcaption" value="User Server" />
+      </field>
+      <field id="pass_server">
+        <phrase id="fldcaption" value="Contraseña" />
+      </field>
+      <field id="user_tdserver">
+        <phrase id="fldcaption" value="User Td Server" />
+      </field>
+      <field id="pass_tdserver">
+        <phrase id="fldcaption" value="Contraseña TDServer" />
+      </field>
+      <field id="fecha_actualizacion">
+        <phrase id="fldcaption" value="Fecha Actualizacion" />
+      </field>
+    </table>
+    <table id="datosextrasescuela">
+      <phrase id="tblcaption" value="datosextrasescuela" />
+      <field id="cue">
+        <phrase id="fldcaption" value="CUE" />
+      </field>
+      <field id="nombre_establecimiento">
+        <phrase id="fldcaption" value="Establecimiento" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+      </field>
+      <field id="localidad">
+        <phrase id="fldcaption" value="Localidad" />
+      </field>
+      <field id="usuario_conig">
+        <phrase id="fldcaption" value="Usuario Conig" />
+      </field>
+      <field id="password_conig">
+        <phrase id="fldcaption" value="Password Conig" />
+      </field>
+      <field id="tiene_internet">
+        <phrase id="fldcaption" value="Tiene Internet" />
+        <phrase id="fldtagvalue1" value="NO" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldtagvalue2" value="SI" />
+        <phrase id="fldtagcaption2" value="SI" />
+      </field>
+      <field id="servicio_internet">
+        <phrase id="fldcaption" value="Servicio Internet" />
+      </field>
+      <field id="estado_internet">
+        <phrase id="fldcaption" value="Estado Internet" />
+        <phrase id="fldtagvalue1" value="FUNCIONA" />
+        <phrase id="fldtagcaption1" value="FUNCIONA" />
+        <phrase id="fldtagvalue2" value="NO FUNCIONA" />
+        <phrase id="fldtagcaption2" value="NO FUNCIONA" />
+      </field>
+      <field id="quien_paga">
+        <phrase id="fldcaption" value="Quien Paga" />
+      </field>
+    </table>
+    <table id="chat">
+      <phrase id="tblcaption" value="Chat" />
+      <field id="orden">
+        <phrase id="fldcaption" value="Orden" />
+      </field>
+      <field id="texto_chat">
+        <phrase id="fldcaption" value="Texto del Mensaje" />
+      </field>
+      <field id="hora">
+        <phrase id="fldcaption" value="Hora" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="estado">
+        <phrase id="fldcaption" value="Estado" />
+      </field>
+      <field id="nro_conversacion">
+        <phrase id="fldcaption" value="Nro Conversacion" />
+      </field>
+    </table>
+    <table id="conversaciones">
+      <phrase id="tblcaption" value="Conversaciones" />
+      <field id="nro_conversacion">
+        <phrase id="fldcaption" value="Nro Conversacion" />
+      </field>
+      <field id="usuario_1">
+        <phrase id="fldcaption" value="Msj Para:" />
+      </field>
+      <field id="usuario_2">
+        <phrase id="fldcaption" value="Quien Envia:" />
+      </field>
+      <field id="fecha_hora">
+        <phrase id="fldcaption" value="Fecha y Hora" />
+      </field>
+    </table>
+  </project>
+</ew-language>
