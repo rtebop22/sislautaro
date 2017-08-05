@@ -1,0 +1,15 @@
+#cuerpo {
+	background-color: #66FFCC;
+	height: 100%;
+	width: 100%;
+}
+#encabezado {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	color: #003366;
+	font-variant: small-caps;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+}

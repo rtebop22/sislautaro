@@ -1,0 +1,37 @@
+.estiloActa {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	background-position: center center;
+	text-align: justify;
+	vertical-align: top;
+	width: auto;
+	height:auto;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	cursor: crosshair;
+	
+}
+.botones {
+	background-color: #0099FF;
+}
+.BotonesFoter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000CC;
+	background-color: #99FF66;
+	border: thin solid #FF0033;
+}
+#muestra div {
+	border: thin none #000000;
+}
+.borde {
+	border: thin solid #000000;
+}
+nav {
+	width: 20%;
+	float: left;
+	height: 100%;
+}
