@@ -12,12 +12,19 @@ class ctodas_atenciones extends cTable {
 	var $Fecha_Entrada;
 	var $Nombre_Titular;
 	var $Dni;
+<<<<<<< HEAD
+=======
+	var $Usuario_que_cargo;
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 	var $Descripcion_Problema;
 	var $Id_Tipo_Falla;
 	var $Id_Problema;
 	var $Id_Tipo_Sol_Problem;
 	var $Id_Estado_Atenc;
+<<<<<<< HEAD
 	var $Usuario_que_cargo;
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 	var $Ultima_Actualizacion;
 
 	//
@@ -78,12 +85,21 @@ class ctodas_atenciones extends cTable {
 		$this->Dni->FldDefaultErrMsg = $Language->Phrase("IncorrectInteger");
 		$this->fields['Dni'] = &$this->Dni;
 
+<<<<<<< HEAD
+=======
+		// Usuario que cargo
+		$this->Usuario_que_cargo = new cField('todas_atenciones', 'todas_atenciones', 'x_Usuario_que_cargo', 'Usuario que cargo', '`Usuario que cargo`', '`Usuario que cargo`', 200, -1, FALSE, '`Usuario que cargo`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
+		$this->Usuario_que_cargo->Sortable = TRUE; // Allow sort
+		$this->fields['Usuario que cargo'] = &$this->Usuario_que_cargo;
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Descripcion Problema
 		$this->Descripcion_Problema = new cField('todas_atenciones', 'todas_atenciones', 'x_Descripcion_Problema', 'Descripcion Problema', '`Descripcion Problema`', '`Descripcion Problema`', 201, -1, FALSE, '`Descripcion Problema`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXTAREA');
 		$this->Descripcion_Problema->Sortable = TRUE; // Allow sort
 		$this->fields['Descripcion Problema'] = &$this->Descripcion_Problema;
 
 		// Id_Tipo_Falla
+<<<<<<< HEAD
 		$this->Id_Tipo_Falla = new cField('todas_atenciones', 'todas_atenciones', 'x_Id_Tipo_Falla', 'Id_Tipo_Falla', '`Id_Tipo_Falla`', '`Id_Tipo_Falla`', 3, -1, FALSE, '`Id_Tipo_Falla`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'SELECT');
 		$this->Id_Tipo_Falla->Sortable = TRUE; // Allow sort
 		$this->Id_Tipo_Falla->UsePleaseSelect = TRUE; // Use PleaseSelect by default
@@ -116,6 +132,27 @@ class ctodas_atenciones extends cTable {
 		$this->Usuario_que_cargo->Sortable = TRUE; // Allow sort
 		$this->fields['Usuario que cargo'] = &$this->Usuario_que_cargo;
 
+=======
+		$this->Id_Tipo_Falla = new cField('todas_atenciones', 'todas_atenciones', 'x_Id_Tipo_Falla', 'Id_Tipo_Falla', '`Id_Tipo_Falla`', '`Id_Tipo_Falla`', 3, -1, FALSE, '`Id_Tipo_Falla`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
+		$this->Id_Tipo_Falla->Sortable = TRUE; // Allow sort
+		$this->fields['Id_Tipo_Falla'] = &$this->Id_Tipo_Falla;
+
+		// Id_Problema
+		$this->Id_Problema = new cField('todas_atenciones', 'todas_atenciones', 'x_Id_Problema', 'Id_Problema', '`Id_Problema`', '`Id_Problema`', 3, -1, FALSE, '`Id_Problema`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
+		$this->Id_Problema->Sortable = TRUE; // Allow sort
+		$this->fields['Id_Problema'] = &$this->Id_Problema;
+
+		// Id_Tipo_Sol_Problem
+		$this->Id_Tipo_Sol_Problem = new cField('todas_atenciones', 'todas_atenciones', 'x_Id_Tipo_Sol_Problem', 'Id_Tipo_Sol_Problem', '`Id_Tipo_Sol_Problem`', '`Id_Tipo_Sol_Problem`', 3, -1, FALSE, '`Id_Tipo_Sol_Problem`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
+		$this->Id_Tipo_Sol_Problem->Sortable = TRUE; // Allow sort
+		$this->fields['Id_Tipo_Sol_Problem'] = &$this->Id_Tipo_Sol_Problem;
+
+		// Id_Estado_Atenc
+		$this->Id_Estado_Atenc = new cField('todas_atenciones', 'todas_atenciones', 'x_Id_Estado_Atenc', 'Id_Estado_Atenc', '`Id_Estado_Atenc`', '`Id_Estado_Atenc`', 3, -1, FALSE, '`Id_Estado_Atenc`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
+		$this->Id_Estado_Atenc->Sortable = TRUE; // Allow sort
+		$this->fields['Id_Estado_Atenc'] = &$this->Id_Estado_Atenc;
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Ultima Actualizacion
 		$this->Ultima_Actualizacion = new cField('todas_atenciones', 'todas_atenciones', 'x_Ultima_Actualizacion', 'Ultima Actualizacion', '`Ultima Actualizacion`', 'DATE_FORMAT(`Ultima Actualizacion`, \'\')', 133, 0, FALSE, '`Ultima Actualizacion`', FALSE, FALSE, FALSE, 'FORMATTED TEXT', 'TEXT');
 		$this->Ultima_Actualizacion->Sortable = TRUE; // Allow sort
@@ -651,12 +688,19 @@ class ctodas_atenciones extends cTable {
 		$this->Fecha_Entrada->setDbValue($rs->fields('Fecha Entrada'));
 		$this->Nombre_Titular->setDbValue($rs->fields('Nombre Titular'));
 		$this->Dni->setDbValue($rs->fields('Dni'));
+<<<<<<< HEAD
+=======
+		$this->Usuario_que_cargo->setDbValue($rs->fields('Usuario que cargo'));
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		$this->Descripcion_Problema->setDbValue($rs->fields('Descripcion Problema'));
 		$this->Id_Tipo_Falla->setDbValue($rs->fields('Id_Tipo_Falla'));
 		$this->Id_Problema->setDbValue($rs->fields('Id_Problema'));
 		$this->Id_Tipo_Sol_Problem->setDbValue($rs->fields('Id_Tipo_Sol_Problem'));
 		$this->Id_Estado_Atenc->setDbValue($rs->fields('Id_Estado_Atenc'));
+<<<<<<< HEAD
 		$this->Usuario_que_cargo->setDbValue($rs->fields('Usuario que cargo'));
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		$this->Ultima_Actualizacion->setDbValue($rs->fields('Ultima Actualizacion'));
 	}
 
@@ -673,12 +717,19 @@ class ctodas_atenciones extends cTable {
 		// Fecha Entrada
 		// Nombre Titular
 		// Dni
+<<<<<<< HEAD
+=======
+		// Usuario que cargo
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Descripcion Problema
 		// Id_Tipo_Falla
 		// Id_Problema
 		// Id_Tipo_Sol_Problem
 		// Id_Estado_Atenc
+<<<<<<< HEAD
 		// Usuario que cargo
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Ultima Actualizacion
 		// N° Atencion
 
@@ -702,11 +753,19 @@ class ctodas_atenciones extends cTable {
 		$this->Dni->ViewValue = $this->Dni->CurrentValue;
 		$this->Dni->ViewCustomAttributes = "";
 
+<<<<<<< HEAD
+=======
+		// Usuario que cargo
+		$this->Usuario_que_cargo->ViewValue = $this->Usuario_que_cargo->CurrentValue;
+		$this->Usuario_que_cargo->ViewCustomAttributes = "";
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Descripcion Problema
 		$this->Descripcion_Problema->ViewValue = $this->Descripcion_Problema->CurrentValue;
 		$this->Descripcion_Problema->ViewCustomAttributes = "";
 
 		// Id_Tipo_Falla
+<<<<<<< HEAD
 		if (strval($this->Id_Tipo_Falla->CurrentValue) <> "") {
 			$sFilterWrk = "`Id_Tipo_Falla`" . ew_SearchString("=", $this->Id_Tipo_Falla->CurrentValue, EW_DATATYPE_NUMBER, "");
 		$sSqlWrk = "SELECT `Id_Tipo_Falla`, `Descripcion` AS `DispFld`, '' AS `Disp2Fld`, '' AS `Disp3Fld`, '' AS `Disp4Fld` FROM `tipo_falla`";
@@ -802,6 +861,23 @@ class ctodas_atenciones extends cTable {
 		$this->Usuario_que_cargo->ViewValue = $this->Usuario_que_cargo->CurrentValue;
 		$this->Usuario_que_cargo->ViewCustomAttributes = "";
 
+=======
+		$this->Id_Tipo_Falla->ViewValue = $this->Id_Tipo_Falla->CurrentValue;
+		$this->Id_Tipo_Falla->ViewCustomAttributes = "";
+
+		// Id_Problema
+		$this->Id_Problema->ViewValue = $this->Id_Problema->CurrentValue;
+		$this->Id_Problema->ViewCustomAttributes = "";
+
+		// Id_Tipo_Sol_Problem
+		$this->Id_Tipo_Sol_Problem->ViewValue = $this->Id_Tipo_Sol_Problem->CurrentValue;
+		$this->Id_Tipo_Sol_Problem->ViewCustomAttributes = "";
+
+		// Id_Estado_Atenc
+		$this->Id_Estado_Atenc->ViewValue = $this->Id_Estado_Atenc->CurrentValue;
+		$this->Id_Estado_Atenc->ViewCustomAttributes = "";
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Ultima Actualizacion
 		$this->Ultima_Actualizacion->ViewValue = $this->Ultima_Actualizacion->CurrentValue;
 		$this->Ultima_Actualizacion->ViewValue = ew_FormatDateTime($this->Ultima_Actualizacion->ViewValue, 0);
@@ -832,6 +908,14 @@ class ctodas_atenciones extends cTable {
 		$this->Dni->HrefValue = "";
 		$this->Dni->TooltipValue = "";
 
+<<<<<<< HEAD
+=======
+		// Usuario que cargo
+		$this->Usuario_que_cargo->LinkCustomAttributes = "";
+		$this->Usuario_que_cargo->HrefValue = "";
+		$this->Usuario_que_cargo->TooltipValue = "";
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Descripcion Problema
 		$this->Descripcion_Problema->LinkCustomAttributes = "";
 		$this->Descripcion_Problema->HrefValue = "";
@@ -857,11 +941,14 @@ class ctodas_atenciones extends cTable {
 		$this->Id_Estado_Atenc->HrefValue = "";
 		$this->Id_Estado_Atenc->TooltipValue = "";
 
+<<<<<<< HEAD
 		// Usuario que cargo
 		$this->Usuario_que_cargo->LinkCustomAttributes = "";
 		$this->Usuario_que_cargo->HrefValue = "";
 		$this->Usuario_que_cargo->TooltipValue = "";
 
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Ultima Actualizacion
 		$this->Ultima_Actualizacion->LinkCustomAttributes = "";
 		$this->Ultima_Actualizacion->HrefValue = "";
@@ -908,6 +995,15 @@ class ctodas_atenciones extends cTable {
 		$this->Dni->EditValue = $this->Dni->CurrentValue;
 		$this->Dni->ViewCustomAttributes = "";
 
+<<<<<<< HEAD
+=======
+		// Usuario que cargo
+		$this->Usuario_que_cargo->EditAttrs["class"] = "form-control";
+		$this->Usuario_que_cargo->EditCustomAttributes = "";
+		$this->Usuario_que_cargo->EditValue = $this->Usuario_que_cargo->CurrentValue;
+		$this->Usuario_que_cargo->PlaceHolder = ew_RemoveHtml($this->Usuario_que_cargo->FldCaption());
+
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 		// Descripcion Problema
 		$this->Descripcion_Problema->EditAttrs["class"] = "form-control";
 		$this->Descripcion_Problema->EditCustomAttributes = "";
@@ -917,24 +1013,44 @@ class ctodas_atenciones extends cTable {
 		// Id_Tipo_Falla
 		$this->Id_Tipo_Falla->EditAttrs["class"] = "form-control";
 		$this->Id_Tipo_Falla->EditCustomAttributes = "";
+<<<<<<< HEAD
+=======
+		$this->Id_Tipo_Falla->EditValue = $this->Id_Tipo_Falla->CurrentValue;
+		$this->Id_Tipo_Falla->PlaceHolder = ew_RemoveHtml($this->Id_Tipo_Falla->FldCaption());
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 
 		// Id_Problema
 		$this->Id_Problema->EditAttrs["class"] = "form-control";
 		$this->Id_Problema->EditCustomAttributes = "";
+<<<<<<< HEAD
+=======
+		$this->Id_Problema->EditValue = $this->Id_Problema->CurrentValue;
+		$this->Id_Problema->PlaceHolder = ew_RemoveHtml($this->Id_Problema->FldCaption());
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 
 		// Id_Tipo_Sol_Problem
 		$this->Id_Tipo_Sol_Problem->EditAttrs["class"] = "form-control";
 		$this->Id_Tipo_Sol_Problem->EditCustomAttributes = "";
+<<<<<<< HEAD
+=======
+		$this->Id_Tipo_Sol_Problem->EditValue = $this->Id_Tipo_Sol_Problem->CurrentValue;
+		$this->Id_Tipo_Sol_Problem->PlaceHolder = ew_RemoveHtml($this->Id_Tipo_Sol_Problem->FldCaption());
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 
 		// Id_Estado_Atenc
 		$this->Id_Estado_Atenc->EditAttrs["class"] = "form-control";
 		$this->Id_Estado_Atenc->EditCustomAttributes = "";
+<<<<<<< HEAD
 
 		// Usuario que cargo
 		$this->Usuario_que_cargo->EditAttrs["class"] = "form-control";
 		$this->Usuario_que_cargo->EditCustomAttributes = "";
 		$this->Usuario_que_cargo->EditValue = $this->Usuario_que_cargo->CurrentValue;
 		$this->Usuario_que_cargo->PlaceHolder = ew_RemoveHtml($this->Usuario_que_cargo->FldCaption());
+=======
+		$this->Id_Estado_Atenc->EditValue = $this->Id_Estado_Atenc->CurrentValue;
+		$this->Id_Estado_Atenc->PlaceHolder = ew_RemoveHtml($this->Id_Estado_Atenc->FldCaption());
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 
 		// Ultima Actualizacion
 		$this->Ultima_Actualizacion->EditAttrs["class"] = "form-control";
@@ -974,12 +1090,19 @@ class ctodas_atenciones extends cTable {
 					if ($this->Fecha_Entrada->Exportable) $Doc->ExportCaption($this->Fecha_Entrada);
 					if ($this->Nombre_Titular->Exportable) $Doc->ExportCaption($this->Nombre_Titular);
 					if ($this->Dni->Exportable) $Doc->ExportCaption($this->Dni);
+<<<<<<< HEAD
+=======
+					if ($this->Usuario_que_cargo->Exportable) $Doc->ExportCaption($this->Usuario_que_cargo);
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 					if ($this->Descripcion_Problema->Exportable) $Doc->ExportCaption($this->Descripcion_Problema);
 					if ($this->Id_Tipo_Falla->Exportable) $Doc->ExportCaption($this->Id_Tipo_Falla);
 					if ($this->Id_Problema->Exportable) $Doc->ExportCaption($this->Id_Problema);
 					if ($this->Id_Tipo_Sol_Problem->Exportable) $Doc->ExportCaption($this->Id_Tipo_Sol_Problem);
 					if ($this->Id_Estado_Atenc->Exportable) $Doc->ExportCaption($this->Id_Estado_Atenc);
+<<<<<<< HEAD
 					if ($this->Usuario_que_cargo->Exportable) $Doc->ExportCaption($this->Usuario_que_cargo);
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 					if ($this->Ultima_Actualizacion->Exportable) $Doc->ExportCaption($this->Ultima_Actualizacion);
 				} else {
 					if ($this->NB0_Atencion->Exportable) $Doc->ExportCaption($this->NB0_Atencion);
@@ -987,12 +1110,19 @@ class ctodas_atenciones extends cTable {
 					if ($this->Fecha_Entrada->Exportable) $Doc->ExportCaption($this->Fecha_Entrada);
 					if ($this->Nombre_Titular->Exportable) $Doc->ExportCaption($this->Nombre_Titular);
 					if ($this->Dni->Exportable) $Doc->ExportCaption($this->Dni);
+<<<<<<< HEAD
+=======
+					if ($this->Usuario_que_cargo->Exportable) $Doc->ExportCaption($this->Usuario_que_cargo);
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 					if ($this->Descripcion_Problema->Exportable) $Doc->ExportCaption($this->Descripcion_Problema);
 					if ($this->Id_Tipo_Falla->Exportable) $Doc->ExportCaption($this->Id_Tipo_Falla);
 					if ($this->Id_Problema->Exportable) $Doc->ExportCaption($this->Id_Problema);
 					if ($this->Id_Tipo_Sol_Problem->Exportable) $Doc->ExportCaption($this->Id_Tipo_Sol_Problem);
 					if ($this->Id_Estado_Atenc->Exportable) $Doc->ExportCaption($this->Id_Estado_Atenc);
+<<<<<<< HEAD
 					if ($this->Usuario_que_cargo->Exportable) $Doc->ExportCaption($this->Usuario_que_cargo);
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 					if ($this->Ultima_Actualizacion->Exportable) $Doc->ExportCaption($this->Ultima_Actualizacion);
 				}
 				$Doc->EndExportRow();
@@ -1030,12 +1160,19 @@ class ctodas_atenciones extends cTable {
 						if ($this->Fecha_Entrada->Exportable) $Doc->ExportField($this->Fecha_Entrada);
 						if ($this->Nombre_Titular->Exportable) $Doc->ExportField($this->Nombre_Titular);
 						if ($this->Dni->Exportable) $Doc->ExportField($this->Dni);
+<<<<<<< HEAD
+=======
+						if ($this->Usuario_que_cargo->Exportable) $Doc->ExportField($this->Usuario_que_cargo);
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 						if ($this->Descripcion_Problema->Exportable) $Doc->ExportField($this->Descripcion_Problema);
 						if ($this->Id_Tipo_Falla->Exportable) $Doc->ExportField($this->Id_Tipo_Falla);
 						if ($this->Id_Problema->Exportable) $Doc->ExportField($this->Id_Problema);
 						if ($this->Id_Tipo_Sol_Problem->Exportable) $Doc->ExportField($this->Id_Tipo_Sol_Problem);
 						if ($this->Id_Estado_Atenc->Exportable) $Doc->ExportField($this->Id_Estado_Atenc);
+<<<<<<< HEAD
 						if ($this->Usuario_que_cargo->Exportable) $Doc->ExportField($this->Usuario_que_cargo);
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 						if ($this->Ultima_Actualizacion->Exportable) $Doc->ExportField($this->Ultima_Actualizacion);
 					} else {
 						if ($this->NB0_Atencion->Exportable) $Doc->ExportField($this->NB0_Atencion);
@@ -1043,12 +1180,19 @@ class ctodas_atenciones extends cTable {
 						if ($this->Fecha_Entrada->Exportable) $Doc->ExportField($this->Fecha_Entrada);
 						if ($this->Nombre_Titular->Exportable) $Doc->ExportField($this->Nombre_Titular);
 						if ($this->Dni->Exportable) $Doc->ExportField($this->Dni);
+<<<<<<< HEAD
+=======
+						if ($this->Usuario_que_cargo->Exportable) $Doc->ExportField($this->Usuario_que_cargo);
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 						if ($this->Descripcion_Problema->Exportable) $Doc->ExportField($this->Descripcion_Problema);
 						if ($this->Id_Tipo_Falla->Exportable) $Doc->ExportField($this->Id_Tipo_Falla);
 						if ($this->Id_Problema->Exportable) $Doc->ExportField($this->Id_Problema);
 						if ($this->Id_Tipo_Sol_Problem->Exportable) $Doc->ExportField($this->Id_Tipo_Sol_Problem);
 						if ($this->Id_Estado_Atenc->Exportable) $Doc->ExportField($this->Id_Estado_Atenc);
+<<<<<<< HEAD
 						if ($this->Usuario_que_cargo->Exportable) $Doc->ExportField($this->Usuario_que_cargo);
+=======
+>>>>>>> b393932802990daef8378bf210a97f7415696ab3
 						if ($this->Ultima_Actualizacion->Exportable) $Doc->ExportField($this->Ultima_Actualizacion);
 					}
 					$Doc->EndExportRow();
